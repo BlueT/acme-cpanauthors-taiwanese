@@ -1,30 +1,37 @@
 package Acme::CPANAuthors::Taiwanese;
-
-use warnings;
+# ABSTRACT: We are Taiwanese CPAN Authors!
+use 5.008;
 use strict;
+use warnings;
 use utf8;
-
-our $VERSION = '0.02';
 
 use Acme::CPANAuthors::Register (
     AUDREYT   => "唐鳳",
     BLUET     => "練喆明",
     CLKAO     => "高嘉良",
     CLSUNG    => "宋政隆",
+    CINDY     => "Cindy Wang",
     CORNELIUS => "林佑安",
+    DRBEAN    => "高來圭",
+    DRYMAN    => "陳仁乾",
+    GASOLWU   => "Gasol Wu",
+    GSLIN     => "林嘉軒",
     GUGOD     => "劉康民",
     HCCHIEN   => "簡信昌",
     IJLIAO    => "廖英傑",
     IMACAT    => "依瑪貓",
+    JNLIN     => "Jui-Nan Lin",
     KCWU      => "吳光哲",
     KENSHAN   => "單中杰",
+    KENWU     => "莉洛",
+    LEEYM     => "李彥明",
     LUKHNOS   => "劉燈",
     MINDOS    => "鄭智中",
     PENK      => "陳品勳",
     SHELLING  => "許家瑋",
+    SNOWFLY   => "飄然似雪",
     VICTOR    => "謝毓庭",
     XERN      => "林永忠",
-    YMLEE     => "李彥明",
     YRCHEN    => "陳禹任",
 );
 
@@ -35,10 +42,6 @@ __END__
 =head1 NAME
 
 Acme::CPANAuthors::Taiwanese - We are Taiwanese CPAN Authors!
-
-=head1 VERSION
-
-This document describes Acme::CPANAuthors::Taiwanese version 0.0.1
 
 =head1 SYNOPSIS
 
@@ -78,7 +81,7 @@ Kang-min Liu  C<< <gugod@gugod.org> >>
 
 =head1 LICENCE AND COPYRIGHT
 
-Copyright (c) 2008, Kang-min Liu C<< <gugod@gugod.org> >>.
+Copyright (c) 2008,2009,2010,2011 Kang-min Liu C<< <gugod@gugod.org> >>.
 
 This module is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself. See L<perlartistic>.
